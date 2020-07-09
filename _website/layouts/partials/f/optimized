@@ -1,0 +1,13 @@
+{{ if (fileExists (printf "static/%s" .)) }}
+{{- $path := . -}}
+{{- $dim := imageConfig (printf "static/%s" $path) -}}
+{{- $image := resources.Get $path -}}
+{{- $res := slice 425 768 1024 1440 2560 -}}{{- $sets := slice -}}{{- $sizes := slice -}}
+{{- range $res }}{{ if ( ge $dim.Width . ) -}}
+{{- $resized := $image.Resize (printf "%dx" .) -}}
+{{- $sets = $sets | append (printf "%s %dw" ($resized.RelPermalink | safeURL) .) -}}
+{{- $sizes = $sizes | append (printf "(max-width: %dpx) %dpx" . .) -}}
+{{- end -}}{{- end -}}
+{{- $sizes = $sizes | append "100vw" -}}
+src="{{ $path }}" srcset="{{ delimit $sets `, ` }}" sizes="{{ delimit $sizes `, ` }}"
+{{ end }}

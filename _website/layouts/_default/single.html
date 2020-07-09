@@ -1,0 +1,3 @@
+{{ define "main" }}
+   {{ partial ( printf "pages/%s.html" .File.TranslationBaseName ) . }}
+{{ end }}

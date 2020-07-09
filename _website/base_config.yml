@@ -1,0 +1,14 @@
+title: Placeholder Title
+baseURL: 'http://localhost:1313'
+languageCode: 'en'
+assetDir: static
+params:
+  plugins:
+    my_scripts:
+      mail_server: https://floating-forest-99048.herokuapp.com/api/form
+      mailer_script_url: /js/mailer.js
+      netlify_redirecter_url: /js/ntredirecter.js
+      netlify_widget_url: https://identity.netlify.com/v1/netlify-identity-widget.js
+      aos_js: js/aos.js
+      aos_css: css/aos.css
+    scss: []
