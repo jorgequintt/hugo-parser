@@ -1,0 +1,20 @@
+title: Customer Reviews
+description: Lorem Ipsum is simply dummy text of the printing and typesetting
+customerReviews:
+  - act: active
+    headshot: /images/profile-1.jpg
+    job_title: Client
+    name: Paul Mitchel
+    review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor,\n\t\t\t\t\t\t\t\t\tvarius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada\n\t\t\t\t\t\t\t\t\tante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet."
+  - act: ''
+    headshot: /images/profile-3.jpg
+    job_title: Client
+    name: Steve Fonsi
+    review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor,\n\t\t\t\t\t\t\t\t\tvarius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada\n\t\t\t\t\t\t\t\t\tante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet."
+  - act: ''
+    headshot: /images/profile-7.jpg
+    job_title: Client
+    name: Daniel vebar
+    review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor,\n\t\t\t\t\t\t\t\t\tvarius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada\n\t\t\t\t\t\t\t\t\tante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet."
+previous_text: Previous
+next_text: Next

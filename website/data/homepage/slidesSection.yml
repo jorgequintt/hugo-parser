@@ -1,0 +1,17 @@
+visible: true
+slides:
+  - button_text: Reservation
+    description: ' '
+    image: images/uploads/brooke-lark-M4E7X3z80PQ-unsplash.jpg
+    title: <strong>Welcome To The Food Restaurant</strong>
+    url: '#'
+  - button_text: Reservation
+    description: "See how your users experience your website in realtime or view <br>\n\t\t\t\t\t\t\t\ttrends to see any changes in performance over time."
+    image: /images/slider-02.jpg
+    title: <strong>Welcome To <br> The Food Restaurant</strong>
+    url: '#'
+  - button_text: Reservation
+    description: "See how your users experience your website in realtime or view <br>\n\t\t\t\t\t\t\t\ttrends to see any changes in performance over time."
+    image: /images/slider-03.jpg
+    title: <strong>Welcome To <br> The Food Restaurant</strong>
+    url: '#'

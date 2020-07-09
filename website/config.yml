@@ -1,0 +1,64 @@
+title: The Food Restaurant
+baseURL: https://amazing-golick-04f2eb.netlify.com
+languageCode: en
+assetDir: static
+params:
+  plugins:
+    my_scripts: {mail_server: 'https://floating-forest-99048.herokuapp.com/api/form',
+      mailer_script_url: /js/mailer.js, netlify_redirecter_url: /js/ntredirecter.js,
+      netlify_widget_url: 'https://identity.netlify.com/v1/netlify-identity-widget.js',
+      aos_js: css/aos.js, aos_css: css/aos.css}
+    scss:
+    - {url: /css/style.scss}
+    css:
+    - {url: /css/bootstrap.min.css}
+    - {url: /css/style.css}
+    - {url: /css/responsive.css}
+    - {url: /css/custom.css}
+    js:
+    - {url: /js/jquery-3.2.1.min.js}
+    - {url: /js/jquery.superslides.min.js}
+    - {url: /js/popper.min.js}
+    - {url: /js/bootstrap.min.js}
+    - {url: /js/images-loded.min.js}
+    - {url: /js/isotope.min.js}
+    - {url: /js/baguetteBox.min.js}
+    - {url: /js/form-validator.min.js}
+    - {url: /js/contact-form-script.js}
+    - {url: /js/custom.js}
+  icon: /images/favicon.png
+  logo: /images/logo.png
+  footerAboutUs: {visible: true, title: About Us, description: "Integer cursus scelerisque\
+      \ ipsum id efficitur. Donec a dui fringilla, gravida lorem ac, semper magna.\n\
+      \t\t\t\t\t\tAenean rhoncus ac lectus a interdum. Vivamus semper posuere dui,\
+      \ at ornare turpis ultrices sit amet.\n\t\t\t\t\t\tNulla cursus lorem ut nisi\
+      \ porta, ac eleifend arcu ultrices."}
+  openingHours:
+    title: Opening hours
+    hours:
+    - {days: Monday, time: Closed}
+    - {days: Tue-Wed, time: '9:Am - 10PM'}
+    - {days: Thu-Fri, time: '9:Am - 10PM'}
+    - {days: Sat-Sun, time: '5:PM - 10PM'}
+  contact:
+    title: Contact information
+    address: Ipsum Street, Lorem Tower, MO, Columbia, 508000
+    number: +01 2000 800 9999
+    email: info@admin.com
+    social:
+    - {name: Facebook, url: '#', icon: facebook}
+    - {name: Twitter, url: '#', icon: twitter}
+    - {name: Linkedin, url: '#', icon: linkedin}
+    - {name: Google Plus, url: '#', icon: google-plus}
+    - {name: Instagram, url: '#', icon: instagram}
+  copyright: "All Rights Reserved. &copy; 2018 <a href=\"#\">Yamifood Restaurant</a>\
+    \ Design By\n\t\t\t\t\t\t\t:\n\t\t\t\t\t\t\t<a href=\"https://html.design/\">html\
+    \ design</a>"
+menu:
+  main:
+  - {weight: '1', URL: /, Name: Home}
+  - {weight: '2', URL: /menu, Name: Menu}
+  - {weight: '3', URL: /about, Name: About}
+  - {weight: '4', URL: /gallery, Name: Gallery}
+  - {weight: '5', URL: /reservation, Name: Reservation}
+  - {weight: '6', URL: /contact, Name: Contact}

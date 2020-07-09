@@ -1,0 +1,7 @@
+title: Reservation
+reservation:
+  title: Reservation
+  description: Lorem Ipsum is simply dummy text of the printing and typesetting
+  form: {title: Book a table, select_person_text: Select Person*, contact_details_text: Contact
+      Details, name_placeholder: Your Name, email_placeholder: Your Email, number_placeholder: Your
+      Numbar, button_text: Book Table}

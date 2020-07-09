@@ -1,1 +1,0 @@
-{{- ((resources.Get .image).Resize .dim).RelPermalink -}}

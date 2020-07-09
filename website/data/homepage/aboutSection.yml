@@ -1,0 +1,7 @@
+visible: true
+main_image: /images/about-img.jpg
+title: Welcome To <span>The Food Restaurant</span>
+description: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque auctor suscipit feugiat. Ut\n\t\t\t\t\t\t\tat pellentesque ante, sed convallis arcu. Nullam facilisis, eros in eleifend luctus, odio ante\n\t\t\t\t\t\t\tsodales augue, eget lacinia lectus erat et sem. </p>\n\t\t\t\t\t\t<p>Sed semper orci sit amet porta placerat. Etiam quis finibus eros. Sed aliquam metus lorem, a\n\t\t\t\t\t\t\tpellentesque tellus pretium a. Nulla placerat elit in justo vestibulum, et maximus sem pulvinar.\n\t\t\t\t\t\t</p>"
+button:
+  text: Reservation
+  url: '#'

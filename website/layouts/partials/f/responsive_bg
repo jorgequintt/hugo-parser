@@ -3,21 +3,9 @@
 <script class="jcs-responsive-bg-script">
 const bgimg = document.querySelector('.jcs-responsive-bg');
 const el = bgimg.parentElement;
-
 let src = typeof bgimg.currentSrc !== 'undefined' ? bgimg.currentSrc : bgimg.src;
-const responsive_bg_str = 'url("' + src + '")';
-
-// Check if parent element to set bg has already background image
-let bg = getComputedStyle(el).backgroundImage;
-if(bg.match(/url\(.*?\)/g)){
-   bg = bg.replace(/url\(.*?\)/g, responsive_bg_str)
-   el.style.backgroundImage = bg;
-}else{
-   el.style.backgroundImage = responsive_bg_str;
-}
-
+el.style.backgroundImage = 'url("' + src + '")';
 el.removeChild(bgimg);
 document.querySelector('.jcs-responsive-bg-script').outerHTML = "";
-
 </script>
 {{ end }}

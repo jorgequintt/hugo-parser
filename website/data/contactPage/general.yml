@@ -1,0 +1,7 @@
+title: Contact Page
+reservation:
+  title: Contact
+  description: Lorem Ipsum is simply dummy text of the printing and typesetting
+  form: {name_placeholder: Your Name, email_placeholder: Your Email, select_placeholder: Please
+      Select Person*, message_placeholder: Your Message, button_text: Send Message}
+map: {lat: '40.7143528', lng: '-74.0059731', title: Marker title, info: Yamifood Restaurant}

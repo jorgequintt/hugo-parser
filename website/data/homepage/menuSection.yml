@@ -1,0 +1,26 @@
+visible: true
+title: Special Menu
+description: Lorem Ipsum is simply dummy text of the printing and typesetting
+itemTypes:
+- {type: drinks, title: Drinks}
+- {type: lunch, title: Lunch}
+- {type: dinner, title: Dinner}
+items:
+- {type: drinks, image: /images/img-01.jpg, title: Special Drinks 1, description: Sed
+    id magna vitae eros sagittis euismod., price: $7.79}
+- {type: drinks, image: /images/img-02.jpg, title: Special Drinks 2, description: Sed
+    id magna vitae eros sagittis euismod., price: $9.79}
+- {type: drinks, image: /images/img-03.jpg, title: Special Drinks 3, description: Sed
+    id magna vitae eros sagittis euismod., price: $10.79}
+- {type: lunch, image: /images/img-04.jpg, title: Special Lunch 1, description: Sed
+    id magna vitae eros sagittis euismod., price: $15.79}
+- {type: lunch, image: /images/img-05.jpg, title: Special Lunch 2, description: Sed
+    id magna vitae eros sagittis euismod., price: $18.79}
+- {type: lunch, image: /images/img-06.jpg, title: Special Lunch 3, description: Sed
+    id magna vitae eros sagittis euismod., price: $20.79}
+- {type: dinner, image: /images/img-07.jpg, title: Special Dinner 1, description: Sed
+    id magna vitae eros sagittis euismod., price: $25.79}
+- {type: dinner, image: /images/img-08.jpg, title: Special Dinner 2, description: Sed
+    id magna vitae eros sagittis euismod., price: $22.79}
+- {type: dinner, image: /images/img-09.jpg, title: Special Dinner 3, description: Sed
+    id magna vitae eros sagittis euismod., price: $24.79}

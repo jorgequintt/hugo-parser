@@ -1,0 +1,10 @@
+visible: true
+title: Gallery
+description: Lorem Ipsum is simply dummy text of the printing and typesetting
+galleryItem:
+- {image: /images/gallery-img-01.jpg}
+- {image: /images/gallery-img-02.jpg}
+- {image: /images/gallery-img-03.jpg}
+- {image: /images/gallery-img-04.jpg}
+- {image: /images/gallery-img-05.jpg}
+- {image: /images/gallery-img-06.jpg}

@@ -1,0 +1,14 @@
+{{ with .Site.Data.homepage.quoteSection }}{{ if .visible }}
+<div class="qt-box qt-background">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 ml-auto mr-auto text-left">
+				<p class="lead ">
+					{{ .quote | markdownify }}
+				</p>
+				<span class="lead">{{ .name }}</span>
+			</div>
+		</div>
+	</div>
+</div>
+{{ end }}{{ end }}

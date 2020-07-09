@@ -1,0 +1,20 @@
+{{ with .Site.Data.homepage.aboutSection }}{{ if .visible }}
+<div class="about-section-box">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-12">
+				<img {{ partial `f/optimized` .main_image | safeHTMLAttr }} alt="" class="img-fluid">
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-12 text-center">
+				<div class="inner-column">
+					<h1>{{ .title | safeHTML }}</h1>
+					{{ .description | safeHTML  }}
+					{{ with .button }}
+					<a class="btn btn-lg btn-circle btn-outline-new-white" href="{{ .url }}">{{ .text }}</a>
+					{{ end }}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{{ end }}{{ end }}

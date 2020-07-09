@@ -9,7 +9,6 @@ params:
       mailer_script_url: /js/mailer.js
       netlify_redirecter_url: /js/ntredirecter.js
       netlify_widget_url: https://identity.netlify.com/v1/netlify-identity-widget.js
-      aos_js: js/aos.js
+      aos_js: css/aos.js
       aos_css: css/aos.css
-      animate_css: css/animate.min.css
     scss: []
